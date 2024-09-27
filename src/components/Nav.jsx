@@ -45,12 +45,12 @@ const Nav = () => {
                                 <div className="sign-in">
                                     <div className="flex">
                                         <h1><BsPersonCircle/></h1>
-                                        <span><a href="#">SIGN-IN</a></span>
+                                        <Link to="/login" id="login">SIGN-IN</Link>
                                     </div>
                                 </div>
                                 
                                 <div className="register">
-                                    <span><a href="#">SUBSCRIBE</a></span>
+                                    <span><Link to="/subscribe" id='subscribe'>SUBSCRIBE</Link></span>
                                 </div>
                             </div>
                         </div>
