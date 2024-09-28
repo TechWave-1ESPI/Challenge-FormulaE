@@ -98,7 +98,7 @@ nav ul li a:hover::before{
 
 .sign-in .flex{
     color: white;
-    padding: 10px 20px;
+    padding: 7.5px 20px;
     background-color: black;
     border-radius: 10px;
     cursor: pointer
