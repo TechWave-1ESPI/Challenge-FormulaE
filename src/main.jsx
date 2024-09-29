@@ -11,7 +11,7 @@ import Ecology from './routes/Ecology.jsx'
 import Drivers from './routes/Drivers.jsx'
 import GlobalStyle from './css/GlobalStyle.jsx'
 import Login from './routes/Login.jsx'
-import Subscribe from './routes/Subscribe.jsx'
+import Usuario from './routes/Usuario.jsx'
 
 const router = createBrowserRouter([
   {
@@ -25,7 +25,7 @@ const router = createBrowserRouter([
       {path: '/drivers', element: <Drivers/>},
       {path: '/rules', element: <Rules/>},
       {path: '/login', element: <Login/>},
-      {path: '/subscribe', element: <Subscribe/>},
+      {path: '/usuario', element: <Usuario/>},
     ]
   }
 ])

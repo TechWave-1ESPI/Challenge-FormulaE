@@ -7,6 +7,7 @@ import { BsPersonCircle } from "react-icons/bs";
 import LogoETV from '../assets/etv-logo-pipe.png'
 import LogoFormulaE from '../assets/formulae-logo.svg'
 
+
 const Nav = () => {
 
     const [active, setActive] = useState(false);
@@ -50,7 +51,7 @@ const Nav = () => {
                                 </div>
                                 
                                 <div className="register">
-                                    <span><Link to="/subscribe" id='subscribe'>SUBSCRIBE</Link></span>
+                                    <span><Link to="/usuario" id='subscribe'>SUBSCRIBE</Link></span>
                                 </div>
                             </div>
                         </div>

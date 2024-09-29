@@ -1,3 +1,24 @@
 {
-    "usuarios": []
+  "usuarios": [
+    {
+      "id": "5f2f",
+      "usuario": "JoãoHoffmann",
+      "senha": "1234567890"
+    },
+    {
+      "id": "f038",
+      "usuario": "jol",
+      "senha": "123"
+    },
+    {
+      "id": "bd3a",
+      "usuario": "anderson",
+      "senha": "12qw"
+    },
+    {
+      "id": "fd6e",
+      "usuario": "joaoh",
+      "senha": "1212"
+    }
+  ]
 }
