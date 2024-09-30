@@ -1,3 +1,6 @@
+//  Router DOM
+import { Link } from 'react-router-dom';
+
 // CSS
 import { TeamsStyle } from '../css/TeamsStyle'
 import Footer from '../components/Footer'
@@ -17,7 +20,7 @@ import EnvisionImg from '../assets/teams/envision.png'
 import ErtImg from '../assets/teams/ert.png'
 import JaguarImg from '../assets/teams/jaguar.png'
 import MahindraImg from '../assets/teams/mahindra.png'
-import MasseratiImg from '../assets/teams/maserati.png'
+import MaseratiImg from '../assets/teams/maserati.png'
 import MclarenImg from '../assets/teams/mclaren.png'
 import NissanImg from '../assets/teams/nissan.png'
 import PenskeImg from '../assets/teams/penske.png'
@@ -102,37 +105,37 @@ const Teams = () => {
                 <section>
                     <Slider {...settings}>
                         <div className="box">
-                            <img src={AndrettiImg} alt="Andretti"/>
+                            <Link to={'/andretti'}><img src={AndrettiImg} alt="Andretti"/></Link>
                         </div>
                         <div className="box">
-                            <img src={CupraImg} alt="Cupra"/>
+                            <Link to={'/cupra'}><img src={CupraImg} alt="Cupra"/></Link>
                         </div>
                         <div className="box">
-                            <img src={EnvisionImg} alt="Envision"/>
+                            <Link to={'envision'}><img src={EnvisionImg} alt="Envision"/></Link>
                         </div>
                         <div className="box">
-                            <img src={ErtImg} alt="Ert"/>
+                            <Link to={'/ert'}><img src={ErtImg} alt="Ert"/></Link>
                         </div>
                         <div className="box">
-                            <img src={JaguarImg} alt="Jaguar"/>
+                            <Link to={'jaguar'}><img src={JaguarImg} alt="Jaguar"/></Link>
                         </div>
                         <div className="box">
-                            <img src={MahindraImg} alt="Mahindra"/>
+                            <Link to={'mahindra'}><img src={MahindraImg} alt="Mahindra"/></Link>
                         </div>
                         <div className="box">
-                            <img src={MasseratiImg} alt="Masserati"/>
+                            <Link to={'/maserati'}><img src={MaseratiImg} alt="Masserati"/></Link>
                         </div>
                         <div className="box">
-                            <img src={MclarenImg} alt="McLaren"/>
+                            <Link to={'mclaren'}><img src={MclarenImg} alt="McLaren"/></Link>
                         </div>
                         <div className="box">
-                            <img src={NissanImg} alt="Nissan"/>
+                            <Link to={'/nissan'}><img src={NissanImg} alt="Nissan"/></Link>
                         </div>
                         <div className="box">
-                            <img src={PenskeImg} alt="Penske"/>
+                            <Link to={'/penske'}><img src={PenskeImg} alt="Penske"/></Link>
                         </div>
                         <div className="box">
-                            <img src={PorscheImg} alt="Porsche"/>
+                            <Link to={'/porsche'}><img src={PorscheImg} alt="Porsche"/></Link>
                         </div>
                     </Slider>
                 </section>

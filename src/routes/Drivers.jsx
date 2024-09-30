@@ -181,8 +181,7 @@ const Drivers = () => {
                             <Link to={'/porsche'}><img src={PascalWehrleinImg} alt="Pascal Wehrlein" /></Link>
                         </div>
                         <div className="box">
-                            <Link to={'/porsche'}></Link>
-                            <img src={AntonioFelixDaCostaImg} alt="Antonio Felix Da Costa" />
+                            <Link to={'/porsche'}><img src={AntonioFelixDaCostaImg} alt="Antonio Felix Da Costa" /></Link>
                         </div>
                     </Slider>
                 </section>
