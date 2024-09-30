@@ -22,7 +22,7 @@ const Nav = () => {
                 <div className="logo-nav">
                     <Link to='/'><img src={LogoFormulaE} alt="Logo da Fórmula E" /></Link>
                 </div>
-                <div className="menu-hamburger" onClick={toggleMode}>
+                <div className={`menu-hamburger ${active ? 'active' : ''}`} onClick={toggleMode}>
                     <div className="bar"></div>
                     <div className="bar"></div>
                     <div className="bar"></div>

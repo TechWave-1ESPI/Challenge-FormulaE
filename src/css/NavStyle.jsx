@@ -176,11 +176,27 @@ nav ul li a:hover::before{
     }
 
     .menu-hamburger .bar {
-        width: 25px;
+        width: 40px;
         height: 3px;
         background: #0039f3;
         margin: 4px 0;
         transition: all 0.3s;
+    }
+
+    .menu-hamburger.active .bar:nth-child(1) {
+        transform: rotate(45deg);
+        position: relative;
+        top: 11px;
+    }
+
+    .menu-hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .menu-hamburger.active .bar:nth-child(3) {
+        transform: rotate(-45deg);
+        position: relative;
+        top: -11px;
     }
 
     .menu-nav.menu-nav-open{

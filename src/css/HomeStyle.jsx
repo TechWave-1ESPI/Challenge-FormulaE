@@ -13,8 +13,8 @@ export const HomeStyle = styled.section `
         position: absolute;
         top: 0;
         left: 0;
-        width: 100%;
-        height: 100%;
+        width: 100vw;
+        height: 100vh;
         object-fit: cover; /* Ensures the video covers the entire area */
         z-index: -1; /* Place the video behind all content */
     }
@@ -84,4 +84,15 @@ export const HomeStyle = styled.section `
         font-size: 30px;
         color: #0077ff;
     }
+
+@media(max-width: 1366px){
+    .last-race .flex{
+        margin-top: 100px;
+    }
+
+    video{
+        height: 110vh;
+    }
+}
+
 `;

@@ -1,11 +1,6 @@
 // CSS
 import { TeamsStyle } from '../css/TeamsStyle'
-
-// Arrows
-import { MdKeyboardDoubleArrowRight , MdKeyboardDoubleArrowLeft  } from "react-icons/md";
-
-// Slider
-import Slider from 'react-slick'
+import Footer from '../components/Footer'
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
@@ -117,6 +112,7 @@ const Teams = () => {
                     </Slider>
                 </section>
             </div>
+            <Footer/>
         </TeamsStyle>
     )
 }
