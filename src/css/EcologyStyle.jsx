@@ -40,4 +40,57 @@ export const EcologySyle = styled.section `
     .lastcard{
         padding-bottom: 30px;
     }
+    @media screen and (max-width: 1280px){ 
+        .rules-title{
+            margin-left: 70px;
+        }
+        section.rules h2{
+            margin-bottom: -50px;
+        }
+
+        .rules-content{
+            padding: 100px;
+        }   
+
+        .rules-content img{
+            width: 650px;
+        }
+
+        .footer{
+            padding: 100px 0px;
+        }
+    }
+
+    @media screen and (max-width: 884px){
+        .rules-content img{
+            width: 400px;
+        }
+    }
+
+    @media screen and (max-width: 768px){
+        .rules-content img{
+            width: 350px;
+        }
+    }
+
+    @media screen and (max-width: 428px){
+        .flex{
+            flex-direction: column;
+        }
+        .rules-content img{
+            width: 300px;
+        } 
+
+        .card2{
+            flex-direction: column-reverse;
+        }
+
+        .card4{
+            flex-direction: column-reverse;
+        }
+
+        .rules-text h3{
+            padding-bottom: 20px;
+        }
+    }
 `

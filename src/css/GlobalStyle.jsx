@@ -26,6 +26,8 @@ html{
 :root{
     --azul-logo: #0000FF;
 }
+
+
 `
 
 export default GlobalStyle

@@ -1,9 +1,167 @@
+// CSS
+import { DriversStyle } from '../css/DriversStyle'
+
+// Arrows
+import { MdKeyboardDoubleArrowRight, MdKeyboardDoubleArrowLeft } from "react-icons/md";
+
+// Slider
+import Slider from 'react-slick'
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+
+// Images
+import LucasDiGrassiImg from '../assets/drivers/lucas-di-grassi.png';
+import NicoMullerImg from '../assets/drivers/nico-muller.png';
+import JakeDenisImg from '../assets/drivers/jake-denis.png';
+import NormanNatoImg from '../assets/drivers/norman-nato.png';
+import JeanEricVergneImg from '../assets/drivers/jean-eric-vergne.png';
+import StofellVandoorneImg from '../assets/drivers/stofell-vandoorne.png';
+import RobinFrijnsImg from '../assets/drivers/robin-frijns.png';
+import SebastianBuemiImg from '../assets/drivers/sebastian-buemi.png';
+import DanTicktumImg from '../assets/drivers/dan-ticktum.png';
+import SergioSetteCamaraImg from '../assets/drivers/sergio-sette-camara.png';
+import MitchEvansImg from '../assets/drivers/mitch-evans.png';
+import NickCassidyImg from '../assets/drivers/nick-cassidy.png';
+import EdoardoMortaraImg from '../assets/drivers/edoardo-mortara.png';
+import NickDeVriesImg from '../assets/drivers/nick-de-vries.png';
+import JehanDaruvalaImg from '../assets/drivers/jehan-daruvala.png';
+import MaximilianGuntherImg from '../assets/drivers/maximilian-gunther.png';
+import JakeHughesImg from '../assets/drivers/jake-hughes.png';
+import SamBirdImg from '../assets/drivers/sam-bird.png';
+import OliverRowlandImg from '../assets/drivers/oliver-rowland.png';
+import SachaFenestrazImg from '../assets/drivers/sacha-fenestraz.png';
+import PascalWehrleinImg from '../assets/drivers/pascal-wehrlein.png';
+import AntonioFelixDaCostaImg from '../assets/drivers/antonio-felix-da-costa.png';
+
 const Drivers = () => {
-    return(
-        <>
-            <h1>Drivers</h1>
-        </>
+    var settings = {
+        centerMode: true,
+        centerPadding: "-5px",
+        initialSlide: 1,
+        dots: true,
+        infinite: true,
+        speed: 500,
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        responsive: [
+            {
+                breakpoint: 1024,
+                settings: {
+                    centerMode: true,
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    infinite: true,
+                    dots: false,
+                    arrows: true // Keep default arrows for this breakpoint as well
+                }
+            },
+            {
+                breakpoint: 600,
+                settings: {
+                    centerMode: true,
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    centerPadding: "20px",
+                    initialSlide: 0,
+                    autoplay: true,
+                    autoplaySpeed: 2000,
+                    pauseOnHover: true,
+                    arrows: true, // Default arrows for mobile too
+                    dots: false
+                }
+            },
+            {
+                breakpoint: 480,
+                settings: {
+                    centerMode: true,
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    arrows: true, // Default arrows for smaller screens
+                    dots: false
+                }
+            }
+        ]
+    };
+
+    return (
+        <DriversStyle>
+            <div className="interface">
+                <div className="drivers-title">
+                    <h2><span>2024</span> DRIVERS</h2>
+                </div>
+                <section>
+                    <Slider {...settings}>
+                        <div className="box">
+                            <img src={LucasDiGrassiImg} alt="Lucas Di Grassi" />
+                        </div>
+                        <div className="box">
+                            <img src={NicoMullerImg} alt="Nico Muller" />
+                        </div>
+                        <div className="box">
+                            <img src={JakeDenisImg} alt="Jake Denis" />
+                        </div>
+                        <div className="box">
+                            <img src={NormanNatoImg} alt="Norman Nato" />
+                        </div>
+                        <div className="box">
+                            <img src={JeanEricVergneImg} alt="Jean Eric Vergne" />
+                        </div>
+                        <div className="box">
+                            <img src={StofellVandoorneImg} alt="Stofell Vandoorne" />
+                        </div>
+                        <div className="box">
+                            <img src={RobinFrijnsImg} alt="Robin Frijns" />
+                        </div>
+                        <div className="box">
+                            <img src={SebastianBuemiImg} alt="Sebastian Buemi" />
+                        </div>
+                        <div className="box">
+                            <img src={DanTicktumImg} alt="Dan Ticktum" />
+                        </div>
+                        <div className="box">
+                            <img src={SergioSetteCamaraImg} alt="Sergio Sette Camara" />
+                        </div>
+                        <div className="box">
+                            <img src={MitchEvansImg} alt="Mitch Evans" />
+                        </div>
+                        <div className="box">
+                            <img src={NickCassidyImg} alt="Nick Cassidy" />
+                        </div>
+                        <div className="box">
+                            <img src={EdoardoMortaraImg} alt="Edoardo Mortara" />
+                        </div>
+                        <div className="box">
+                            <img src={NickDeVriesImg} alt="Nick De Vries" />
+                        </div>
+                        <div className="box">
+                            <img src={JehanDaruvalaImg} alt="Jehan Daruvala" />
+                        </div>
+                        <div className="box">
+                            <img src={MaximilianGuntherImg} alt="Maximilian Gunther" />
+                        </div>
+                        <div className="box">
+                            <img src={JakeHughesImg} alt="Jake Hughes" />
+                        </div>
+                        <div className="box">
+                            <img src={SamBirdImg} alt="Sam Bird" />
+                        </div>
+                        <div className="box">
+                            <img src={OliverRowlandImg} alt="Oliver Rowland" />
+                        </div>
+                        <div className="box">
+                            <img src={SachaFenestrazImg} alt="Sacha Fenestraz" />
+                        </div>
+                        <div className="box">
+                            <img src={PascalWehrleinImg} alt="Pascal Wehrlein" />
+                        </div>
+                        <div className="box">
+                            <img src={AntonioFelixDaCostaImg} alt="Antonio Felix Da Costa" />
+                        </div>
+                    </Slider>
+                </section>
+            </div>
+        </DriversStyle>
     )
 }
 
-export default Drivers
+export default Drivers;
