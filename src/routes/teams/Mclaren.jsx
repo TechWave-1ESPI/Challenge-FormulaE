@@ -72,7 +72,7 @@ const McLaren = () => {
                         <img src="/src/assets/logos-carros-pilotos/MCLAREN-logo.png" alt="McLaren Logo" className="logo" />
                         <h3>JAKE HUGHES</h3>
                         <p><strong>30/05/1994 (30) Country:</strong> <img src="/src/assets/logos-carros-pilotos/reino unido.avif" alt="UK Flag" className="flag" /></p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tempus justo neque, id finibus est bibendum ut. Vivamus consectetur, mi at ornare facilisis, purus urna pharetra enim, sed pellentesque nulla arcu convallis orci. Quisque tempus leo id justo consectetur convallis. Phasellus id sem hendrerit.</p>
+                        <p className="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tempus justo neque, id finibus est bibendum ut. Vivamus consectetur, mi at ornare facilisis, purus urna pharetra enim, sed pellentesque nulla arcu convallis orci. Quisque tempus leo id justo consectetur convallis. Phasellus id sem hendrerit.</p>
                         <div className="classification">
                             <strong>Classificação</strong>
                             <p className="mclaren">10th</p>
@@ -106,7 +106,7 @@ const McLaren = () => {
                         <img src="/src/assets/logos-carros-pilotos/MCLAREN-logo.png" alt="McLaren Logo" className="logo" />
                         <h3>SAM BIRD</h3>
                         <p><strong>09/01/1987 (37) Country:</strong> <img src="/src/assets/logos-carros-pilotos/reino unido.avif" alt="UK Flag" className="flag" /></p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tempus justo neque, id finibus est bibendum ut. Vivamus consectetur, mi at ornare facilisis, purus urna pharetra enim, sed pellentesque nulla arcu convallis orci. Quisque tempus leo id justo consectetur convallis. Phasellus id sem hendrerit.</p>
+                        <p className="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tempus justo neque, id finibus est bibendum ut. Vivamus consectetur, mi at ornare facilisis, purus urna pharetra enim, sed pellentesque nulla arcu convallis orci. Quisque tempus leo id justo consectetur convallis. Phasellus id sem hendrerit.</p>
                         <div className="classification">
                             <strong>Classificação</strong>
                             <p className="mclaren">12th</p>

@@ -72,7 +72,7 @@ const Penske = () => {
                         <img src="/src/assets/logos-carros-pilotos/penske-logo.png" alt="Penske Logo" className="logo" />
                         <h3>STOFFEL VANDOORNE</h3>
                         <p><strong>26/03/1992 (32) Country:</strong> <img src="/src/assets/logos-carros-pilotos/belgica.png" alt="Belgium Flag" className="flag" /></p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tempus justo neque, id finibus est bibendum ut. Vivamus consectetur, mi at ornare facilisis, purus urna pharetra enim, sed pellentesque nulla arcu convallis orci. Quisque tempus leo id justo consectetur convallis. Phasellus id sem hendrerit.</p>
+                        <p className="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tempus justo neque, id finibus est bibendum ut. Vivamus consectetur, mi at ornare facilisis, purus urna pharetra enim, sed pellentesque nulla arcu convallis orci. Quisque tempus leo id justo consectetur convallis. Phasellus id sem hendrerit.</p>
                         <div className="classification">
                             <strong>Classificação</strong>
                             <p className="penske">9th</p>
@@ -106,7 +106,7 @@ const Penske = () => {
                         <img src="/src/assets/logos-carros-pilotos/penske-logo.png" alt="Penske Logo" className="logo" />
                         <h3>JEAN-ÉRIC VERGNE</h3>
                         <p><strong>25/04/1990 (34) Country:</strong> <img src="/src/assets/logos-carros-pilotos/frança.png" alt="France Flag" className="flag" /></p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tempus justo neque, id finibus est bibendum ut. Vivamus consectetur, mi at ornare facilisis, purus urna pharetra enim, sed pellentesque nulla arcu convallis orci. Quisque tempus leo id justo consectetur convallis. Phasellus id sem hendrerit.</p>
+                        <p className="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tempus justo neque, id finibus est bibendum ut. Vivamus consectetur, mi at ornare facilisis, purus urna pharetra enim, sed pellentesque nulla arcu convallis orci. Quisque tempus leo id justo consectetur convallis. Phasellus id sem hendrerit.</p>
                         <div className="classification">
                             <strong>Classificação</strong>
                             <p className="penske">6th</p>

@@ -72,7 +72,7 @@ const Cupra = () => {
                         <img src="/src/assets/logos-carros-pilotos/abt-logo.png" alt="ABT Logo" className="logo" />
                         <h3>LUCAS DI GRASSI</h3>
                         <p><strong>11/08/1984 (39) Country:</strong> <img src="/src/assets/logos-carros-pilotos/brasil.png" alt="Brazil Flag" className="flag" /></p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tempus justo neque, id finibus est bibendum ut. Vivamus consectetur, mi at ornare facilisis, purus urna pharetra enim, sed pellentesque nulla arcu convallis orci. Quisque tempus leo id justo consectetur convallis. Phasellus id sem hendrerit.</p>
+                        <p className="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tempus justo neque, id finibus est bibendum ut. Vivamus consectetur, mi at ornare facilisis, purus urna pharetra enim, sed pellentesque nulla arcu convallis orci. Quisque tempus leo id justo consectetur convallis. Phasellus id sem hendrerit.</p>
                         <div className="classification">
                             <strong>Classificação</strong>
                             <p className="cupra">24th</p>
@@ -106,7 +106,7 @@ const Cupra = () => {
                         <img src="/src/assets/logos-carros-pilotos/abt-logo.png" alt="ABT Logo" className="logo" />
                         <h3>NICO MÜLLER</h3>
                         <p><strong>25/02/1992 (32) Country:</strong> <img src="/src/assets/logos-carros-pilotos/suiça.png" alt="Switzerland Flag" className="flag" /></p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tempus justo neque, id finibus est bibendum ut. Vivamus consectetur, mi at ornare facilisis, purus urna pharetra enim, sed pellentesque nulla arcu convallis orci. Quisque tempus leo id justo consectetur convallis. Phasellus id sem hendrerit.</p>
+                        <p className="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tempus justo neque, id finibus est bibendum ut. Vivamus consectetur, mi at ornare facilisis, purus urna pharetra enim, sed pellentesque nulla arcu convallis orci. Quisque tempus leo id justo consectetur convallis. Phasellus id sem hendrerit.</p>
                         <div className="classification">
                             <strong>Classificação</strong>
                             <p className="cupra">16th</p>

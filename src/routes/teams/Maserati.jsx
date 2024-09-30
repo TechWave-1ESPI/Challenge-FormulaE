@@ -72,7 +72,7 @@ const Maserati = () => {
                         <img src="/src/assets/logos-carros-pilotos/Maserati-logo.png" alt="Maserati Logo" className="logo" />
                         <h3>JEHAN DARUVALA</h3>
                         <p><strong>01/10/1998 (25) Country:</strong> <img src="/src/assets/logos-carros-pilotos/suiça.png" alt="Switzerland Flag" className="flag" /></p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tempus justo neque, id finibus est bibendum ut. Vivamus consectetur, mi at ornare facilisis, purus urna pharetra enim, sed pellentesque nulla arcu convallis orci. Quisque tempus leo id justo consectetur convallis. Phasellus id sem hendrerit.</p>
+                        <p className="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tempus justo neque, id finibus est bibendum ut. Vivamus consectetur, mi at ornare facilisis, purus urna pharetra enim, sed pellentesque nulla arcu convallis orci. Quisque tempus leo id justo consectetur convallis. Phasellus id sem hendrerit.</p>
                         <div className="classification">
                             <strong>Classificação</strong>
                             <p className="maserati">19th</p>
@@ -106,7 +106,7 @@ const Maserati = () => {
                         <img src="/src/assets/logos-carros-pilotos/Maserati-logo.png" alt="Maserati Logo" className="logo" />
                         <h3>MAXIMILIAN GÜNTHER</h3>
                         <p><strong>02/07/1997 (26) Country:</strong> <img src="/src/assets/logos-carros-pilotos/alemanha.png" alt="Germany Flag" className="flag" /></p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tempus justo neque, id finibus est bibendum ut. Vivamus consectetur, mi at ornare facilisis, purus urna pharetra enim, sed pellentesque nulla arcu convallis orci. Quisque tempus leo id justo consectetur convallis. Phasellus id sem hendrerit.</p>
+                        <p className="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tempus justo neque, id finibus est bibendum ut. Vivamus consectetur, mi at ornare facilisis, purus urna pharetra enim, sed pellentesque nulla arcu convallis orci. Quisque tempus leo id justo consectetur convallis. Phasellus id sem hendrerit.</p>
                         <div className="classification">
                             <strong>Classificação</strong>
                             <p className="maserati">8th</p>

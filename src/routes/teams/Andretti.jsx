@@ -72,7 +72,7 @@ const Andretti = () => {
                         <img src="/src/assets/logos-carros-pilotos/andretti-logo.png" alt="Andretti Logo" className="logo" />
                         <h3>JAKE DENNIS</h3>
                         <p><strong>16/06/1995 (29) Country:</strong> <img src="/src/assets/logos-carros-pilotos/reino unido.avif" alt="UK Flag" className="flag" /></p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tempus justo neque, id finibus est bibendum ut. Vivamus consectetur, mi at ornare facilisis, purus urna pharetra enim, sed pellentesque nulla arcu convallis orci. Quisque tempus leo id justo consectetur convallis. Phasellus id sem hendrerit.</p>
+                        <p className="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tempus justo neque, id finibus est bibendum ut. Vivamus consectetur, mi at ornare facilisis, purus urna pharetra enim, sed pellentesque nulla arcu convallis orci. Quisque tempus leo id justo consectetur convallis. Phasellus id sem hendrerit.</p>
                         <div className="classification">
                             <strong>Classificação</strong>
                             <p>05th</p>
@@ -106,7 +106,7 @@ const Andretti = () => {
                         <img src="/src/assets/logos-carros-pilotos/andretti-logo.png" alt="Andretti Logo" className="logo" />
                         <h3>NORMAN NATO</h3>
                         <p><strong>08/07/1992 (31) Country:</strong> <img src="/src/assets/logos-carros-pilotos/frança.png" alt="France Flag" className="flag" /></p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tempus justo neque, id finibus est bibendum ut. Vivamus consectetur, mi at ornare facilisis, purus urna pharetra enim, sed pellentesque nulla arcu convallis orci. Quisque tempus leo id justo consectetur convallis. Phasellus id sem hendrerit.</p>
+                        <p className="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tempus justo neque, id finibus est bibendum ut. Vivamus consectetur, mi at ornare facilisis, purus urna pharetra enim, sed pellentesque nulla arcu convallis orci. Quisque tempus leo id justo consectetur convallis. Phasellus id sem hendrerit.</p>
                         <div className="classification">
                             <strong>Classificação</strong>
                             <p>11th</p>

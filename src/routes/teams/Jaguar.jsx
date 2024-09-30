@@ -72,7 +72,7 @@ const Jaguar = () => {
                         <img src="/src/assets/logos-carros-pilotos/Jaguar-logo.png" alt="Jaguar Logo" className="logo" />
                         <h3>MITCH EVANS</h3>
                         <p><strong>24/06/1994 (30) Country:</strong> <img src="/src/assets/logos-carros-pilotos/nova zelandia.svg" alt="New Zealand Flag" className="flag" /></p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tempus justo neque, id finibus est bibendum ut. Vivamus consectetur, mi at ornare facilisis, purus urna pharetra enim, sed pellentesque nulla arcu convallis orci. Quisque tempus leo id justo consectetur convallis. Phasellus id sem hendrerit.</p>
+                        <p className="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tempus justo neque, id finibus est bibendum ut. Vivamus consectetur, mi at ornare facilisis, purus urna pharetra enim, sed pellentesque nulla arcu convallis orci. Quisque tempus leo id justo consectetur convallis. Phasellus id sem hendrerit.</p>
                         <div className="classification">
                             <strong>Classificação</strong>
                             <p>3rd</p>
@@ -106,7 +106,7 @@ const Jaguar = () => {
                         <img src="/src/assets/logos-carros-pilotos/Jaguar-logo.png" alt="Jaguar Logo" className="logo" />
                         <h3>NICK CASSIDY</h3>
                         <p><strong>19/08/1994 (29) Country:</strong> <img src="/src/assets/logos-carros-pilotos/nova zelandia.svg" alt="New Zealand Flag" className="flag" /></p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tempus justo neque, id finibus est bibendum ut. Vivamus consectetur, mi at ornare facilisis, purus urna pharetra enim, sed pellentesque nulla arcu convallis orci. Quisque tempus leo id justo consectetur convallis. Phasellus id sem hendrerit.</p>
+                        <p className="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tempus justo neque, id finibus est bibendum ut. Vivamus consectetur, mi at ornare facilisis, purus urna pharetra enim, sed pellentesque nulla arcu convallis orci. Quisque tempus leo id justo consectetur convallis. Phasellus id sem hendrerit.</p>
                         <div className="classification">
                             <strong>Classificação</strong>
                             <p>1st</p>
