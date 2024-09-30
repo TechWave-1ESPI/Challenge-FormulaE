@@ -18,15 +18,11 @@ body {
 }
 
 .section-1, .section-2 {
-    background-color: #f7f7f7;
+    background-color: white;
     border-radius: 10px;
     padding: 20px;
     max-width: 1280px;
     box-shadow: 0 0px 5px rgba(0,0,0,0.1);
-}
-
-.section-2{
-    background-color: white;
 }
 
 .section-1 .content, .section-2 .driver {

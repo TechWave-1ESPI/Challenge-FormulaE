@@ -3,6 +3,10 @@ import { Link } from 'react-router-dom';
 
 // CSS
 import { TeamsStyle } from '../css/TeamsStyle'
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+
+// Footer
 import Footer from '../components/Footer'
 
 // Arrows
@@ -10,8 +14,7 @@ import { MdKeyboardDoubleArrowRight , MdKeyboardDoubleArrowLeft  } from "react-i
 
 // Slider
 import Slider from 'react-slick'
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
+
 
 // Images
 import AndrettiImg from '../assets/teams/andretti.png'
@@ -53,7 +56,7 @@ const Teams = () => {
         infinite: true,
         speed: 500,
         slidesToShow: 3,
-        slidesToScroll: 3,
+        slidesToScroll: 1,
         arrows: true,
         nextArrow: <SampleNextArrow />,
         prevArrow: <SamplePrevArrow />,
@@ -111,16 +114,16 @@ const Teams = () => {
                             <Link to={'/cupra'}><img src={CupraImg} alt="Cupra"/></Link>
                         </div>
                         <div className="box">
-                            <Link to={'envision'}><img src={EnvisionImg} alt="Envision"/></Link>
+                            <Link to={'/envision'}><img src={EnvisionImg} alt="Envision"/></Link>
                         </div>
                         <div className="box">
                             <Link to={'/ert'}><img src={ErtImg} alt="Ert"/></Link>
                         </div>
                         <div className="box">
-                            <Link to={'jaguar'}><img src={JaguarImg} alt="Jaguar"/></Link>
+                            <Link to={'/jaguar'}><img src={JaguarImg} alt="Jaguar"/></Link>
                         </div>
                         <div className="box">
-                            <Link to={'mahindra'}><img src={MahindraImg} alt="Mahindra"/></Link>
+                            <Link to={'/mahindra'}><img src={MahindraImg} alt="Mahindra"/></Link>
                         </div>
                         <div className="box">
                             <Link to={'/maserati'}><img src={MaseratiImg} alt="Masserati"/></Link>

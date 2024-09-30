@@ -32,7 +32,7 @@ export const TeamsStyle = styled.section `
 
     .slick-dots li button:before {
         font-size: 12px;
-        color: #d1d1d1; /* Default color */
+        color: #707070; /* Default color */
     }
 
     .slick-dots li.slick-active button:before {
@@ -40,22 +40,23 @@ export const TeamsStyle = styled.section `
     }
 
     .arrow {
-    color: #ccc;
+    color: #001c777d;
     display: flex;
     align-items: center;
     justify-content: center;
     cursor: pointer;
+    margin-right: -100px;
+    margin-left: -100px;
     z-index: 1;
     position: absolute;
     top: 50%;
-    width: 27px;
-    height: 44px;
+    width: 50px;
     transform: translateY(-50%);
     transition: color .3s ease;
     }
 
     .arrow:hover {
-    color: #0000ff; /* Color on hover */
+    color: #0054fc; /* Color on hover */
     }
 
     .arrow.active {
@@ -63,11 +64,11 @@ export const TeamsStyle = styled.section `
     }
 
     .arrow.next {
-        right: 20px;
+        right: 0px;
     }
 
     .arrow.prev {
-        left: 40px;
+        left: 0px;
     }
 
     @media screen and (max-width: 600px) {
@@ -82,6 +83,15 @@ export const TeamsStyle = styled.section `
 
     .slick-dots li.slick-active button:before {
         color: blue; /* Active dot color */
+    }
+
+    .arrow{
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .arrow.next {
+        right: -13px;
     }
 
     

@@ -50,7 +50,7 @@ const Cupra = () => {
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tempus justo neque, id finibus est bibendum ut. Vivamus consectetur, mi at ornare facilisis, purus urna pharetra enim, sed pellentesque nulla arcu convallis orci. Quisque tempus leo id justo consectetur convallis. Phasellus id sem hendrerit.</p>
                             <div className="audio">
                                 <audio ref={audioRef} id="musica" preload="auto">
-                                    <source src="/src/assets/audio/corrida.mp3" type="audio/mpeg" />
+                                    <source src="/src/assets/audio/car.mp3" type="audio/mpeg" />
                                     Your browser does not support the audio element.
                                 </audio>
                                 <GiSoundWaves className="audio-icon" onClick={playSound} />
