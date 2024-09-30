@@ -1,8 +1,99 @@
-# React + Vite
+# 1ESPI - ALUNOS RESPONSÁVEIS
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+RM 557927 WESLLEY OLIVEIRA CARDOSO, RM 554589 LUCAS LUDOVICO CABRAL, RM 550763 JOAO HENRIQUE SENA HOFFMANN, RM 558909 VINICIUS FERNANDES TAVARES BITTENCOURT, RM 555600 Rafael Teofilo Lucena
 
-Currently, two official plugins are available:
+# Formula E Challenge
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Introdução
+Este projeto é um desafio de faculdade focado em popularizar a Fórmula E, a modalidade de automobilismo mais sustentável e rápida do mundo. O projeto foi desenvolvido como parte do curso de Engenharia de Software na FIAP.
+
+## Índice
+- [Tecnologias Utilizadas](#tecnologias-utilizadas)
+- [Estrutura do Projeto](#estrutura-do-projeto)
+- [Como Executar o Projeto](#como-executar-o-projeto)
+- [Funcionalidades](#funcionalidades)
+- [Screenshots](#screenshots)
+- [Contribuições](#contribuições)
+- [Licença](#licença)
+
+## Tecnologias Utilizadas
+- React
+- React Router DOM
+- React Icons
+- Slick React
+- Styled Components
+
+## Estrutura do Projeto
+A estrutura de diretórios do projeto é a seguinte:
+
+
+## Como Executar o Projeto
+Para executar o projeto localmente, siga os passos abaixo:
+1. Clone o repositório:
+    ```bash
+    git clone https://github.com/LucasLCabral/FormulaE-Challenge.git
+    ```
+2. Navegue até o diretório do projeto:
+    ```bash
+    cd FormulaE-Challenge
+    ```
+3. Abra a pasta com todos os arquivos e de o comando: "npm install"
+
+4. Por fim basta executar os comandos: "npm run dev" & "npm run backend"
+
+
+
+## Funcionalidades
+### Página Inicial
+- Apresentação da Fórmula E com um vídeo de fundo.
+- Navegação por diferentes seções do site: Ecology, Teams, Drivers, Rules.
+- Botões de Sign-In e Subscribe.
+
+### Ecology
+- Informações sobre sustentabilidade na Fórmula E.
+- Descrição das iniciativas ecológicas, como carros elétricos, reciclagem, energias renováveis, etc.
+
+### Teams
+- Carrossel de imagens dos times participantes da Fórmula E em 2024.
+- Links para páginas específicas de cada time com mais detalhes.
+
+### Drivers
+- Carrossel de imagens dos pilotos participantes da Fórmula E em 2024.
+- Links para páginas específicas de cada piloto com mais detalhes.
+
+### Rules
+- Estrutura das corridas, pontuação, Fanboost, Attack Mode e sustentabilidade.
+
+## Screenshots
+### Página Inicial
+![Página Inicial](src/assets/screenshots/home.png)
+
+### Ecology
+![Ecology](src/assets/screenshots/ecology.png)
+
+### Teams
+![Teams](src/assets/screenshots/teams.png)
+
+### Drivers
+![Drivers](src/assets/screenshots/drivers.png)
+
+### Rules
+![Rules](src/assets/screenshots/rules.png)
+
+## Contribuições
+Contribuições são bem-vindas! Para contribuir, siga os passos abaixo:
+1. Fork o projeto.
+2. Crie uma nova branch:
+    ```bash
+    git checkout -b minha-nova-funcionalidade
+    ```
+3. Faça suas modificações e commit:
+    ```bash
+    git commit -m 'Adiciona nova funcionalidade'
+    ```
+4. Push para a branch:
+    ```bash
+    git push origin minha-nova-funcionalidade
+    ```
+5. Abra um Pull Request.
+
