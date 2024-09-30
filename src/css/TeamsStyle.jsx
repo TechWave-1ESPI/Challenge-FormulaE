@@ -7,8 +7,9 @@ export const TeamsStyle = styled.section `
         cursor: pointer;
     }
 
-    .teams-title{
+    .teams-title h2{
         margin-top: 20px;
+        font-weight: 500;
         margin-bottom: 20px;
     }
 
@@ -71,7 +72,7 @@ export const TeamsStyle = styled.section `
 
     @media screen and (max-width: 600px) {
     .teams-title {
-        margin-left: 10px;
+        margin-left: 60px;
     }
 
     .slick-dots li button:before {

@@ -17,7 +17,7 @@ const Rules = () => {
                         <h2>FORMULA <span>E</span> RULES</h2>
                     </div>
                     <div class="rules-content">
-                        <div class="flex card">
+                        <div class="flex card card1">
                             <img src={Img1} alt="carros formula e"/>
                             <div class="rules-text">
                                 <h3>Estrutura da Corrida</h3>
@@ -25,7 +25,7 @@ const Rules = () => {
                             </div>
                         </div>
 
-                        <div class="flex card">
+                        <div class="flex card card2">
                             <div class="rules-text">
                                 <h3>Pontuação e Campeonato</h3>
                                 <p>Os pontos na Fórmula E são atribuídos de acordo com a posição final de cada piloto na corrida. O vencedor recebe 25 pontos, o segundo lugar recebe 18 pontos e assim por diante até o décimo lugar, que recebe 1 ponto. Pontos adicionais são concedidos para o pole position e o piloto que fizer a volta mais rápida na corrida. O piloto com o maior número de pontos no final da temporada é coroado o campeão da Fórmula E.</p>
@@ -33,7 +33,7 @@ const Rules = () => {
                             <img src={Img2} alt="carros formula e"/>
                         </div>
 
-                        <div class="flex card">
+                        <div class="flex card card3">
                             <img src={Img3} alt="carros formula e"/>
                             <div class="rules-text">
                                 <h3>Fanboost</h3>
@@ -41,7 +41,7 @@ const Rules = () => {
                             </div>
                         </div>
 
-                        <div class="flex card">
+                        <div class="flex card card4">
                             <div class="rules-text">
                                 <h3>Attack Mode</h3>
                                 <p>O Modo Ataque é outra inovação exclusiva da Fórmula E, onde os pilotos podem ganhar um aumento temporário de potência ao passar por uma zona de ativação específica na pista. Os pilotos devem planejar estrategicamente quando usar o Modo Ataque para maximizar sua vantagem durante a corrida.</p>
@@ -49,7 +49,7 @@ const Rules = () => {
                             <img src={Img4} alt="carros formula e"/>
                         </div>
 
-                        <div class="flex card">
+                        <div class="flex card card5">
                             <img src={Img5} alt="carros formula e"/>
                             <div class="rules-text">
                                 <h3>Sustentabilidade</h3>

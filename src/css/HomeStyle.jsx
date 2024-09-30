@@ -85,14 +85,30 @@ export const HomeStyle = styled.section `
         color: #0077ff;
     }
 
-@media(max-width: 1366px){
-    .last-race .flex{
-        margin-top: 100px;
+    @media(max-width: 1366px){
+        .last-race .flex{
+            margin-top: 100px;
+        }
+
+        video{
+            height: 110vh;
+        }
     }
 
-    video{
-        height: 110vh;
+    @media (max-width: 600px){
+
+        .inicio h1{
+            margin-top: 250px;
+            font-size: 50px;
+        }
+
+        .inicio p{
+            font-size: 13px;
+        }
     }
-}
+
+    .last-race-btn p{
+        font-size: 20px;
+    }
 
 `;

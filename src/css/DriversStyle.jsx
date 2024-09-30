@@ -5,9 +5,10 @@ export const DriversStyle = styled.section`
         cursor: pointer;
     }
 
-    .drivers-title {
+    .drivers-title h2{
         margin-top: 20px;
-        margin-bottom: 20px;
+        font-weight: 500;
+        margin-bottom: 50px;
     }
 
     .drivers-title span {
@@ -69,7 +70,7 @@ export const DriversStyle = styled.section`
 
     @media screen and (max-width: 600px) {
     .drivers-title {
-        margin-left: 10px;
+        margin-left: 60px;
     }
     }
 `;

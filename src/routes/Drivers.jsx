@@ -1,3 +1,6 @@
+// Router Dom
+import { Link } from 'react-router-dom';
+
 // CSS
 import { DriversStyle } from '../css/DriversStyle'
 import Footer from '../components/Footer'
@@ -115,69 +118,70 @@ const Drivers = () => {
                 <section>
                     <Slider {...settings}>
                         <div className="box">
-                            <img src={LucasDiGrassiImg} alt="Lucas Di Grassi" />
+                            <Link to={'/cupra'}><img src={LucasDiGrassiImg} alt="Lucas Di Grassi" /></Link>
                         </div>
                         <div className="box">
-                            <img src={NicoMullerImg} alt="Nico Muller" />
+                            <Link to={'/cupra'}><img src={NicoMullerImg} alt="Nico Muller" /></Link>
                         </div>
                         <div className="box">
-                            <img src={JakeDenisImg} alt="Jake Denis" />
+                            <Link to={'/andretti'}><img src={JakeDenisImg} alt="Jake Denis" /></Link>
                         </div>
                         <div className="box">
-                            <img src={NormanNatoImg} alt="Norman Nato" />
+                            <Link to={'/andretti'}><img src={NormanNatoImg} alt="Norman Nato" /></Link>
                         </div>
                         <div className="box">
-                            <img src={JeanEricVergneImg} alt="Jean Eric Vergne" />
+                            <Link to={'/penske'}><img src={JeanEricVergneImg} alt="Jean Eric Vergne" /></Link>
                         </div>
                         <div className="box">
-                            <img src={StofellVandoorneImg} alt="Stofell Vandoorne" />
+                            <Link to={'/penske'}><img src={StofellVandoorneImg} alt="Stofell Vandoorne" /></Link>
                         </div>
                         <div className="box">
-                            <img src={RobinFrijnsImg} alt="Robin Frijns" />
+                            <Link to={'/envision'}><img src={RobinFrijnsImg} alt="Robin Frijns" /></Link>
                         </div>
                         <div className="box">
-                            <img src={SebastianBuemiImg} alt="Sebastian Buemi" />
+                            <Link to={'/envision'}><img src={SebastianBuemiImg} alt="Sebastian Buemi" /></Link>
                         </div>
                         <div className="box">
-                            <img src={DanTicktumImg} alt="Dan Ticktum" />
+                            <Link to={'/ert'}><img src={DanTicktumImg} alt="Dan Ticktum" /></Link>
                         </div>
                         <div className="box">
-                            <img src={SergioSetteCamaraImg} alt="Sergio Sette Camara" />
+                            <Link to={'/ert'}><img src={SergioSetteCamaraImg} alt="Sergio Sette Camara" /></Link>
                         </div>
                         <div className="box">
-                            <img src={MitchEvansImg} alt="Mitch Evans" />
+                            <Link to={'/jaguar'}><img src={MitchEvansImg} alt="Mitch Evans" /></Link>
                         </div>
                         <div className="box">
-                            <img src={NickCassidyImg} alt="Nick Cassidy" />
+                            <Link to={'/jaguar'}><img src={NickCassidyImg} alt="Nick Cassidy" /></Link>
                         </div>
                         <div className="box">
-                            <img src={EdoardoMortaraImg} alt="Edoardo Mortara" />
+                            <Link to={'/mahindra'}><img src={EdoardoMortaraImg} alt="Edoardo Mortara" /></Link>
                         </div>
                         <div className="box">
-                            <img src={NickDeVriesImg} alt="Nick De Vries" />
+                            <Link to={'/mahindra'}><img src={NickDeVriesImg} alt="Nick De Vries" /></Link>
                         </div>
                         <div className="box">
-                            <img src={JehanDaruvalaImg} alt="Jehan Daruvala" />
+                            <Link to={'/maserati'}><img src={JehanDaruvalaImg} alt="Jehan Daruvala" /></Link>
                         </div>
                         <div className="box">
-                            <img src={MaximilianGuntherImg} alt="Maximilian Gunther" />
+                            <Link to={'/maserati'}><img src={MaximilianGuntherImg} alt="Maximilian Gunther" /></Link>
                         </div>
                         <div className="box">
-                            <img src={JakeHughesImg} alt="Jake Hughes" />
+                            <Link to={'/mclaren'}><img src={JakeHughesImg} alt="Jake Hughes" /></Link>
                         </div>
                         <div className="box">
-                            <img src={SamBirdImg} alt="Sam Bird" />
+                            <Link to={'/mclaren'}><img src={SamBirdImg} alt="Sam Bird" /></Link>
                         </div>
                         <div className="box">
-                            <img src={OliverRowlandImg} alt="Oliver Rowland" />
+                            <Link to={'/nissan'}><img src={OliverRowlandImg} alt="Oliver Rowland" /></Link>
                         </div>
                         <div className="box">
-                            <img src={SachaFenestrazImg} alt="Sacha Fenestraz" />
+                            <Link to={'/nissan'}><img src={SachaFenestrazImg} alt="Sacha Fenestraz" /></Link>
                         </div>
                         <div className="box">
-                            <img src={PascalWehrleinImg} alt="Pascal Wehrlein" />
+                            <Link to={'/porsche'}><img src={PascalWehrleinImg} alt="Pascal Wehrlein" /></Link>
                         </div>
                         <div className="box">
+                            <Link to={'/porsche'}></Link>
                             <img src={AntonioFelixDaCostaImg} alt="Antonio Felix Da Costa" />
                         </div>
                     </Slider>

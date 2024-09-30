@@ -13,6 +13,18 @@ import GlobalStyle from './css/GlobalStyle.jsx'
 import Login from './routes/Login.jsx'
 import Usuario from './routes/Usuario.jsx'
 
+import Andretti from './routes/teams/Andretti.jsx'
+import Cupra from './routes/teams/Cupra.jsx'
+import Envision from './routes/teams/Envision.jsx'
+import Ert from './routes/teams/Ert.jsx'
+import Jaguar from './routes/teams/Jaguar.jsx'
+import Mahindra from './routes/teams/Mahindra.jsx'
+import Maserati from './routes/teams/Maserati.jsx'
+import Mclaren from './routes/teams/Mclaren.jsx'
+import Nissan from './routes/teams/Nissan.jsx'
+import Penske from './routes/teams/Penske.jsx'
+import Porsche from './routes/teams/Porsche.jsx'
+
 const router = createBrowserRouter([
   {
     path: '/', element: <App/>,
@@ -26,6 +38,18 @@ const router = createBrowserRouter([
       {path: '/rules', element: <Rules/>},
       {path: '/login', element: <Login/>},
       {path: '/usuario', element: <Usuario/>},
+      {path: '/andretti', element: <Andretti/>},
+      {path: '/cupra', element: <Cupra/>},
+      {path: '/envision', element: <Envision/>},
+      {path: '/ert', element: <Ert/>},
+      {path: '/jaguar', element: <Jaguar/>},
+      {path: '/mahindra', element: <Mahindra/>},
+      {path: '/maserati', element: <Maserati/>},
+      {path: '/mclaren', element: <Mclaren/>},
+      {path: '/nissan', element: <Nissan/>},
+      {path: '/penske', element: <Penske/>},
+      {path: '/porsche', element: <Porsche/>},
+
     ]
   }
 ])

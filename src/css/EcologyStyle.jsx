@@ -1,7 +1,5 @@
 import styled from 'styled-components'
 
-
-
 export const EcologySyle = styled.section `
 
     .ecology-title h2{
@@ -41,35 +39,54 @@ export const EcologySyle = styled.section `
         padding-bottom: 30px;
     }
     @media screen and (max-width: 1280px){ 
-        .rules-title{
+        .ecology-title{
             margin-left: 70px;
         }
-        section.rules h2{
+        section.ecology h2{
             margin-bottom: -50px;
         }
 
-        .rules-content{
-            padding: 100px;
+        .ecology-content{
+            padding: 50px;
         }   
 
-        .rules-content img{
+        .ecology-content img{
             width: 650px;
         }
 
-        .footer{
-            padding: 100px 0px;
-        }
     }
 
     @media screen and (max-width: 884px){
-        .rules-content img{
+        .ecology-content img{
             width: 400px;
         }
     }
 
     @media screen and (max-width: 768px){
-        .rules-content img{
+        .ecology-content img{
             width: 350px;
+        }
+    }
+
+    @media screen and (max-width: 600px){
+        .flex{
+            flex-direction: column;
+        }
+        .ecology-content img{
+            margin-left: 5%;
+            width: 350px;
+        } 
+
+        .card2{
+            flex-direction: column-reverse;
+        }
+
+        .card4{
+            flex-direction: column-reverse;
+        }
+
+        .ecology-text h3{
+            padding-bottom: 20px;
         }
     }
 
@@ -77,7 +94,7 @@ export const EcologySyle = styled.section `
         .flex{
             flex-direction: column;
         }
-        .rules-content img{
+        .ecology-content img{
             width: 300px;
         } 
 
@@ -89,7 +106,7 @@ export const EcologySyle = styled.section `
             flex-direction: column-reverse;
         }
 
-        .rules-text h3{
+        .ecology-text h3{
             padding-bottom: 20px;
         }
     }
