@@ -1,4 +1,6 @@
 import {EcologySyle} from '../css/EcologyStyle'
+import Footer from '../components/Footer'
+
 import Img1 from '../assets/ecology/1.png'
 import Img2 from '../assets/ecology/2.png'
 import Img3 from '../assets/ecology/3.png'
@@ -77,6 +79,7 @@ const Ecology = () => {
                     </div>
                 </div>
             </section>
+            <Footer/>
         </EcologySyle>
     )
 }

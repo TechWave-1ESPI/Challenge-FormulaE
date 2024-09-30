@@ -1,4 +1,5 @@
 import {RulesSyle} from '../css/RulesStyle'
+import Footer from '../components/Footer'
 
 import Img1 from '../assets/rules/1.png'
 import Img2 from '../assets/rules/2.png'
@@ -66,6 +67,7 @@ const Rules = () => {
                     </div>
                 </div>
             </section>
+            <Footer/>
         </RulesSyle>
     )
 }
