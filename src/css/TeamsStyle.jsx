@@ -38,7 +38,36 @@ export const TeamsStyle = styled.section `
         color: blue; /* Active dot color */
     }
 
-    
+    .arrow {
+    color: #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 1;
+    position: absolute;
+    top: 50%;
+    width: 27px;
+    height: 44px;
+    transform: translateY(-50%);
+    transition: color .3s ease;
+    }
+
+    .arrow:hover {
+    color: #0000ff; /* Color on hover */
+    }
+
+    .arrow.active {
+    color: #0054fc; /* Color when active */
+    }
+
+    .arrow.next {
+        right: 20px;
+    }
+
+    .arrow.prev {
+        left: 40px;
+    }
 
     @media screen and (max-width: 600px) {
     .teams-title {

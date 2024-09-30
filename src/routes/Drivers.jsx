@@ -34,6 +34,25 @@ import SachaFenestrazImg from '../assets/drivers/sacha-fenestraz.png';
 import PascalWehrleinImg from '../assets/drivers/pascal-wehrlein.png';
 import AntonioFelixDaCostaImg from '../assets/drivers/antonio-felix-da-costa.png';
 
+
+const SampleNextArrow = (props) => {
+    const { onClick } = props;
+    return (
+        <div className="arrow next" onClick={onClick}>
+            <MdKeyboardDoubleArrowRight size={40} />
+        </div>
+    );
+};
+
+const SamplePrevArrow = (props) => {
+    const { onClick } = props;
+    return (
+        <div className="arrow prev" onClick={onClick}>
+            <MdKeyboardDoubleArrowLeft size={40} />
+        </div>
+    );
+};
+
 const Drivers = () => {
     var settings = {
         centerMode: true,
@@ -44,6 +63,9 @@ const Drivers = () => {
         speed: 500,
         slidesToShow: 3,
         slidesToScroll: 3,
+        arrows: true,
+        nextArrow: <SampleNextArrow />,
+        prevArrow: <SamplePrevArrow />,
         responsive: [
             {
                 breakpoint: 1024,

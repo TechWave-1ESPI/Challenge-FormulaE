@@ -24,6 +24,23 @@ import PenskeImg from '../assets/teams/penske.png'
 import PorscheImg from '../assets/teams/porsche.png'
 
 
+const SampleNextArrow = (props) => {
+    const { onClick } = props;
+    return (
+        <div className="arrow next" onClick={onClick}>
+            <MdKeyboardDoubleArrowRight size={40} />
+        </div>
+    );
+};
+
+const SamplePrevArrow = (props) => {
+    const { onClick } = props;
+    return (
+        <div className="arrow prev" onClick={onClick}>
+            <MdKeyboardDoubleArrowLeft size={40} />
+        </div>
+    );
+};
 
 const Teams = () => {
     var settings = {
@@ -34,7 +51,9 @@ const Teams = () => {
         speed: 500,
         slidesToShow: 3,
         slidesToScroll: 3,
-        arrows: true, // Keep this to use default arrows
+        arrows: true,
+        nextArrow: <SampleNextArrow />,
+        prevArrow: <SamplePrevArrow />,
         responsive: [
           {
             breakpoint: 1024,

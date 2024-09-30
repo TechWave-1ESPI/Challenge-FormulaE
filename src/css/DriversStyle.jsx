@@ -36,27 +36,35 @@ export const DriversStyle = styled.section`
         color: blue; /* Active dot color */
     }
 
-    .custom-arrow {
-        display: block;
-        font-size: 40px; /* Bigger size */
-        color: #0000ff89; /* Customize the arrow color */
-        z-index: 1;
-        cursor: pointer;
+    .arrow {
+    color: #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 1;
+    position: absolute;
+    top: 50%;
+    width: 27px;
+    height: 44px;
+    transform: translateY(-50%);
+    transition: color .3s ease;
     }
 
-    /* Right arrow (Next) positioning */
-    .custom-arrow.custom-next {
-        right: 20px; /* Adjust positioning */
+    .arrow:hover {
+    color: #0000ff; /* Color on hover */
     }
 
-    /* Left arrow (Previous) positioning */
-    .custom-arrow.custom-prev {
-        left: 20px; /* Adjust positioning */
+    .arrow.active {
+    color: #0054fc; /* Color when active */
     }
 
-    /* Optional: Add hover effect */
-    .custom-arrow:hover {
-        color: blue; /* Darker color on hover */
+    .arrow.next {
+        right: 20px;
+    }
+
+    .arrow.prev {
+        left: 40px;
     }
 
     @media screen and (max-width: 600px) {
