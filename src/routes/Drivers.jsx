@@ -1,5 +1,6 @@
 // CSS
 import { DriversStyle } from '../css/DriversStyle'
+import Footer from '../components/Footer'
 
 // Arrows
 import { MdKeyboardDoubleArrowRight, MdKeyboardDoubleArrowLeft } from "react-icons/md";
@@ -160,6 +161,7 @@ const Drivers = () => {
                     </Slider>
                 </section>
             </div>
+            <Footer/>
         </DriversStyle>
     )
 }
