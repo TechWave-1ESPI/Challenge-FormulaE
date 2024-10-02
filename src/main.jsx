@@ -12,7 +12,9 @@ import Drivers from './routes/Drivers.jsx'
 import GlobalStyle from './css/GlobalStyle.jsx'
 import Login from './routes/Login.jsx'
 import Usuario from './routes/Usuario.jsx'
+import ETv from './routes/ETv.jsx'
 
+// Teams Imports
 import Andretti from './routes/teams/Andretti.jsx'
 import Cupra from './routes/teams/Cupra.jsx'
 import Envision from './routes/teams/Envision.jsx'
@@ -31,6 +33,7 @@ const router = createBrowserRouter([
     errorElement: <Error/>,
 
     children:[
+      // Nav Pages
       {path: '/', element: <Home/>},
       {path: '/ecology', element: <Ecology/>},
       {path: '/teams', element: <Teams/>},
@@ -38,6 +41,8 @@ const router = createBrowserRouter([
       {path: '/rules', element: <Rules/>},
       {path: '/login', element: <Login/>},
       {path: '/usuario', element: <Usuario/>},
+      {path: '/etv', element: <ETv/>},
+      // Teams Page
       {path: '/andretti', element: <Andretti/>},
       {path: '/cupra', element: <Cupra/>},
       {path: '/envision', element: <Envision/>},
