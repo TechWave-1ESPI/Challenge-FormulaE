@@ -18,13 +18,14 @@ export const ETvStyle = styled.section `
         margin-top: 50px;
         display: flex;
         flex-direction: column;
-        gap: 40px;
+        gap: 20px;
         justify-content: center;
         align-items: center;
         
     }
 
     .post{
+        min-width: 540px;
         box-shadow: 0 0 8px #19191929;;
         border-radius: 15px;
         padding: 20px;
@@ -91,6 +92,7 @@ export const ETvStyle = styled.section `
         padding-top: 5px;
         transition: 0.3s;
     }
+    
 
     .like-icon, .dislike-icon{
         transition: 0.3s;
@@ -118,5 +120,20 @@ export const ETvStyle = styled.section `
     .reply{
         padding-top: 10px;
         cursor: pointer;
+    }
+
+    @media screen and (max-width: 600px){
+        .post{
+            
+        }
+
+        .top-part .user-info .user-name-and-time{
+            
+        }
+
+        .top-part img{
+            width: 70px;
+            height: 70px;
+        }
     }
 `
