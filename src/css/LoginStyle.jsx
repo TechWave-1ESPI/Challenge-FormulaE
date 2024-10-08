@@ -130,7 +130,7 @@ export const LoginStyle = styled.section `
   padding: 0;
   margin-top: 30px;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   font-size: 14px;
 }

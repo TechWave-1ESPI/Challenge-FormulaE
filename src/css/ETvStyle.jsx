@@ -35,9 +35,19 @@ export const ETvStyle = styled.section `
         justify-content: space-between;
     }
 
-    .post .top-part{
+    .post .top-part {
         display: flex;
-        
+        position: relative; /* Adiciona o relative para posicionamento */
+        justify-content: space-between;
+    }
+
+    .dots-icon {
+        cursor: pointer;
+        font-size: 30px;
+        color: #6a6c77;
+        position: absolute; /* Define o posicionamento absoluto */
+        right: 20px; /* Afasta os três pontos da borda direita */
+        top: 20px; /* Afasta os três pontos do topo */
     }
 
     .top-part img{

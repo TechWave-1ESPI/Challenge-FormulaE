@@ -3,77 +3,56 @@ import { useNavigate, Link } from "react-router-dom";
 import { LoginStyle } from "../css/LoginStyle";
 import ImagemLogin from '../assets/loginUser.png';
 
-
-const Login=()=>{
-
-    
+const Login = () => {
     const usuario = useRef();
     const senha = useRef();
 
-    
-    const [usuarios, setUsuarios]= useState([]);
+    const [usuarios, setUsuarios] = useState([]);
+    const [errorMessage, setErrorMessage] = useState(""); // Estado para armazenar mensagem de erro
 
-   
-     const navigate = useNavigate();
+    const navigate = useNavigate();
 
-    
-    function validade(){
-        for(let i=0; i < usuarios.length; i++){
-            if(
-                usuarios[i].usuario == usuario.current.value &&
-                usuarios[i].senha == senha.current.value
-            ){
+    function validade() {
+        for (let i = 0; i < usuarios.length; i++) {
+            if (
+                usuarios[i].usuario === usuario.current.value &&
+                usuarios[i].senha === senha.current.value
+            ) {
                 return true;
             }
         }
+        return false;
     }
 
-
-     
-
-     const handleSubmit=(e)=>{
-        
+    const handleSubmit = (e) => {
         e.preventDefault();
 
-        if(validade()){
-
-            let token=
-                Math.random().toString(16).substring(2)+
-                Math.random().toString(16).substring(2)
-                sessionStorage.setItem("usuario",usuario.current.value);
-                sessionStorage.setItem("senha",token)
-                navigate("/etv")
-
-        }else{
-                alert("usuario/senha inválidos")
+        if (validade()) {
+            let token =
+                Math.random().toString(16).substring(2) +
+                Math.random().toString(16).substring(2);
+            sessionStorage.setItem("usuario", usuario.current.value);
+            sessionStorage.setItem("senha", token);
+            navigate("/etv");
+        } else {
+            // Atualize a mensagem de erro
+            setErrorMessage("Usuário ou senha incorretos. Tente novamente.");
         }
+    };
 
-     }
-
-
-     
-
-     useEffect(()=>{
+    useEffect(() => {
         fetch("http://localhost:5000/usuarios/")
-        
-        .then((res)=>{
-            return res.json();
-        })
-        
-        .then((res)=>{
-            setUsuarios(res)
-        })
-        
-     },[])
-
-
+            .then((res) => res.json())
+            .then((res) => {
+                setUsuarios(res);
+            });
+    }, []);
 
     return (
         <LoginStyle>
             <section className="container">
                 <div className="container-login">
                     <div className="login">
-
                         <form className="login-form" onSubmit={handleSubmit}>
                             <span className="titulo-login">Faça seu Login</span>
 
@@ -84,9 +63,8 @@ const Login=()=>{
                                     id="usuario"
                                     placeholder="Usuário"
                                     ref={usuario}
-                                />                      
+                                />
                             </div>
-
 
                             <div className="w-input">
                                 <input
@@ -95,11 +73,20 @@ const Login=()=>{
                                     id="senha"
                                     placeholder="Senha"
                                     ref={senha}
-                                />                      
+                                />
                             </div>
 
+                            {/* Exibir mensagem de erro condicionalmente */}
+                            {errorMessage && (
+                                <p style={{ color: "red", marginTop: "10px" }}>
+                                    {errorMessage}
+                                </p>
+                            )}
+
                             <div className="login-btn">
-                                <button type="submit" className="login-form-btn">Login</button>
+                                <button type="submit" className="login-form-btn">
+                                    Login
+                                </button>
                             </div>
 
                             <ul className="utilidades">
@@ -110,10 +97,11 @@ const Login=()=>{
                             </ul>
                         </form>
                     </div>
-                    <img src={ImagemLogin} alt="logo imagem"/>
+                    <img src={ImagemLogin} alt="logo imagem" />
                 </div>
             </section>
         </LoginStyle>
-    )
-}
-export default Login
+    );
+};
+
+export default Login;
