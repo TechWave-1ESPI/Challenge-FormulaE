@@ -23,6 +23,7 @@ header a{
 nav{
     display: flex;
     width: 100%;
+    height: 15vh;
     justify-content: space-evenly;
 }
 

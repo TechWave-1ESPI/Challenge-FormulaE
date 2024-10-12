@@ -27,6 +27,8 @@ import Nissan from './routes/teams/Nissan.jsx'
 import Penske from './routes/teams/Penske.jsx'
 import Porsche from './routes/teams/Porsche.jsx'
 
+import Dashboard from './routes/Dashboard.jsx'
+
 const router = createBrowserRouter([
   {
     path: '/', element: <App/>,
@@ -55,7 +57,8 @@ const router = createBrowserRouter([
       {path: '/penske', element: <Penske/>},
       {path: '/porsche', element: <Porsche/>},
 
-    ]
+      {path: '/dashboard', element: <Dashboard/>}
+    ]   
   }
 ])
 
