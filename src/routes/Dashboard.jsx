@@ -8,6 +8,11 @@ import { MdSensors } from "react-icons/md";
 import { IoPeopleSharp } from "react-icons/io5";
 import { BsClipboard2Data } from "react-icons/bs";
 
+import { IoIosArrowRoundUp } from "react-icons/io";
+import { IoIosArrowRoundBack } from "react-icons/io";
+import { IoIosArrowRoundDown } from "react-icons/io";
+import { IoIosArrowRoundForward } from "react-icons/io";
+
 import CarDashboard from '../assets/car_dashboard.png'
 
 const Dashboard = () => {
@@ -89,14 +94,13 @@ const Dashboard = () => {
             </aside>
 
             <div className='cars-icons'>
-                {/* <h1>Aqui vai ficar o carro e ícones</h1> */}
-                <div className='icon'></div>
+                <div className={parseInt(frontObstacle) <= 50 ? 'icon danger' : 'icon' }><IoIosArrowRoundUp /></div>
                 <div className='middle'>
-                    <div className="icon"></div>
+                    <div className={parseInt(rightObstacle) <= 50 ? 'icon danger' : 'icon' }><IoIosArrowRoundBack /></div>
                     <img src={CarDashboard} alt="Car Mahindra" id='car-dashboard'/>
-                    <div className="icon"></div>
+                    <div className={parseInt(leftObstacle) <= 50 ? 'icon danger' : 'icon' }><IoIosArrowRoundForward /></div>
                 </div>
-                <div className="icon"></div>
+                <div className={parseInt(rearObstacle) <= 50 ? 'icon danger' : 'icon' }><IoIosArrowRoundDown /></div>
             </div>
 
             <div className='data'>

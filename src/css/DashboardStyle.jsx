@@ -104,10 +104,19 @@ aside{
 }
 
 .icon{
-    width: 30px;
-    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 25px;
+    width: 35px;
+    height: 35px;
     border-radius: 50%;
     background-color: #0017EB;
+}
+
+.danger{
+    background-color: red;
 }
 
 /* ESTILIZAÇÃO DOS DADOS */
