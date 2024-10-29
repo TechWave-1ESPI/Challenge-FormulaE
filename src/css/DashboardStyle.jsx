@@ -3,7 +3,7 @@ import styled from 'styled-components'
 export const DashboardStyle = styled.section `
 
 .dashboard{
-    height: 85vh;
+    height: 100vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -79,11 +79,41 @@ aside{
     font-size: 18px;
 }
 
+/* ESTILIZAÇÃO DOS ÍCONES */
+.cars-icons{
+    width: 23vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    /*margin-right: 7vw;
+    padding: 50px;*/
+    background-color: #f3f3f3;
+    border-radius: 15px;
+    box-shadow: 0 0 8px #1919193e;
+}
+
+.middle{
+    display: flex;
+    align-items: center;
+}
+
+#car-dashboard{
+    width: 225px;
+}
+
+.icon{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #0017EB;
+}
 
 /* ESTILIZAÇÃO DOS DADOS */
 .data{
     width: 43vw;
-    height: 70vh;
+    height: 80vh;
     margin-right: 7vw;
     padding: 50px;
     display: flex;

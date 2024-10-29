@@ -3,17 +3,19 @@ import React, { useEffect, useState } from 'react'
 
 import { DashboardStyle } from '../css/DashboardStyle';
 
-import { IoPeopleSharp } from "react-icons/io5";
-import { MdSensors } from "react-icons/md";
-import { BsClipboard2Data } from "react-icons/bs";
 import { RxExit } from "react-icons/rx";
+import { MdSensors } from "react-icons/md";
+import { IoPeopleSharp } from "react-icons/io5";
+import { BsClipboard2Data } from "react-icons/bs";
+
+import CarDashboard from '../assets/car_dashboard.png'
 
 const Dashboard = () => {
 
     const [leftObstacle, setLeftObstacle] = useState(null);
     const [rightObstacle, setRightObstacle] = useState(null);
     const [frontObstacle, setFrontObstacle] = useState(null);
-    const rearObstacle = 27;
+    const rearObstacle = 28;
     
     const getValues = async () => {
         try {
@@ -87,7 +89,14 @@ const Dashboard = () => {
             </aside>
 
             <div className='cars-icons'>
-                <h1>Aqui vai ficar o carro e ícones</h1>
+                {/* <h1>Aqui vai ficar o carro e ícones</h1> */}
+                <div className='icon'></div>
+                <div className='middle'>
+                    <div className="icon"></div>
+                    <img src={CarDashboard} alt="Car Mahindra" id='car-dashboard'/>
+                    <div className="icon"></div>
+                </div>
+                <div className="icon"></div>
             </div>
 
             <div className='data'>
@@ -109,19 +118,19 @@ const Dashboard = () => {
                 <div className='obstacles-data'>
                     <div className='sensor-values'>
                         <h1>Left</h1>
-                        {leftObstacle === null ? (<p>Carregando...</p>) : (<h2 className={parseInt(leftObstacle) <= 50 ? 'alert' : ''}>{parseInt(leftObstacle)} <span>cm</span></h2>)}
+                        {leftObstacle === null ? (<p>Loading...</p>) : (<h2 className={parseInt(leftObstacle) <= 50 ? 'alert' : ''}>{parseInt(leftObstacle)} <span>cm</span></h2>)}
                     </div>
                     
                     <div className='sensor-values right-side'>
                         <div className='align'>
                             <h1>Right</h1>
-                            {rightObstacle === null ? (<p>Carregando...</p>) : (<h2 className={parseInt(rightObstacle) <= 50 ? 'alert' : ''}>{parseInt(rightObstacle)} <span>cm</span></h2>)}
+                            {rightObstacle === null ? (<p>Loading...</p>) : (<h2 className={parseInt(rightObstacle) <= 50 ? 'alert' : ''}>{parseInt(rightObstacle)} <span>cm</span></h2>)}
                         </div>
                     </div>
 
                     <div className='sensor-values last-row'>
                         <h1>Front</h1>
-                        {frontObstacle === null ? (<p>Carregando...</p>) : (<h2 className={parseInt(frontObstacle) <= 50 ? 'alert' : ''}>{parseInt(frontObstacle)} <span>cm</span></h2>)}
+                        {frontObstacle === null ? (<p>Loading...</p>) : (<h2 className={parseInt(frontObstacle) <= 50 ? 'alert' : ''}>{parseInt(frontObstacle)} <span>cm</span></h2>)}
                     </div>
                     
                     <div className='sensor-values right-side last-row'>
