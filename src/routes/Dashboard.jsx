@@ -96,9 +96,9 @@ const Dashboard = () => {
             <div className='cars-icons'>
                 <div className={parseInt(frontObstacle) <= 50 ? 'icon danger' : 'icon' }><IoIosArrowRoundUp /></div>
                 <div className='middle'>
-                    <div className={parseInt(rightObstacle) <= 50 ? 'icon danger' : 'icon' }><IoIosArrowRoundBack /></div>
+                    <div className={parseInt(leftObstacle) <= 50 ? 'icon danger' : 'icon' }><IoIosArrowRoundBack /></div>
                     <img src={CarDashboard} alt="Car Mahindra" id='car-dashboard'/>
-                    <div className={parseInt(leftObstacle) <= 50 ? 'icon danger' : 'icon' }><IoIosArrowRoundForward /></div>
+                    <div className={parseInt(rightObstacle) <= 50 ? 'icon danger' : 'icon' }><IoIosArrowRoundForward /></div>
                 </div>
                 <div className={parseInt(rearObstacle) <= 50 ? 'icon danger' : 'icon' }><IoIosArrowRoundDown /></div>
             </div>
